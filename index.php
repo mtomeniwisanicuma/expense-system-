@@ -1,0 +1,28 @@
+<html>
+<head>
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login">
+
+<form action="includes/signup.inc.php" method="POST">
+    <div class="form-group">
+    <input type="text" name="first" placeholder="first" height="20px"><br><br>
+    <input type="text" name="lastName" placeholder="last name"><br><br>
+    <input type="text" name="dateB" placeholder="date of birth"><br>
+    <button type="submit" name="submit">submit</button>
+</div>
+
+</form>
+</div>
+</body>
+</html>
+
+
+
+
+
+
